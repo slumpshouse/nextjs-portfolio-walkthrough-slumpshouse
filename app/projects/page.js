@@ -4,10 +4,10 @@ import Footer from '../components/Footer'
 export default function Projects() {
   const projects = [
     {
-      title: "E-commerce Website",
+      title: "Skill sync",
       description: "A full-stack e-commerce platform built with React and Node.js, featuring user authentication, shopping cart, and payment integration.",
       image: "bg-gradient-to-r from-blue-400 to-purple-600",
-      technologies: ["React", "Node.js", "MongoDB", "Stripe"],
+      technologies: ["React", "Node.js", ""],
       github: "#",
       demo: "#",
       category: "Web App"

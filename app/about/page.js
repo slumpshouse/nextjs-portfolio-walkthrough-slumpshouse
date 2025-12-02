@@ -16,7 +16,7 @@ export default function About() {
                 <span className="text-white font-bold text-xl">Your Photo</span>
               </div>
               <div className="flex-1">
-                <h2 className="text-3xl font-bold mb-4 text-gray-900">Hello, I'm [Your Name]</h2>
+                <h2 className="text-3xl font-bold mb-4 text-gray-900">Hello, I'm Sa'NYa</h2>
                 <p className="text-lg text-gray-700 mb-4">
                   I'm a passionate web developer with a love for creating beautiful, functional, and user-friendly websites. 
                   I enjoy solving complex problems and turning ideas into reality through code.
@@ -77,8 +77,8 @@ export default function About() {
               <div className="space-y-6">
                 <div className="border-l-4 border-blue-500 pl-4">
                   <h3 className="text-xl font-semibold text-gray-900">Education</h3>
-                  <p className="text-gray-600">Your School/University</p>
-                  <p className="text-sm text-gray-500">Degree/Program • Year</p>
+                  <p className="text-gray-600">Launchpad</p>
+                  <p className="text-sm text-gray-500">Degree/Program • 2024</p>
                   <p className="text-gray-700 mt-2">Relevant coursework or achievements</p>
                 </div>
                 <div className="border-l-4 border-green-500 pl-4">
@@ -99,11 +99,11 @@ export default function About() {
                 <div className="text-center">
                   <div className="text-4xl mb-3">🎵</div>
                   <h3 className="font-semibold mb-2">Music</h3>
-                  <p className="text-gray-600">Love listening to and creating music</p>
+                  <p className="text-gray-600">Love listening to music</p>
                 </div>
                 <div className="text-center">
                   <div className="text-4xl mb-3">📚</div>
-                  <h3 className="font-semibold mb-2">Reading</h3>
+                  <h3 className="font-semibold mb-2">Playing video games</h3>
                   <p className="text-gray-600">Always learning something new</p>
                 </div>
                 <div className="text-center">

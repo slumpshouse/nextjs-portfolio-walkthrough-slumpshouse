@@ -4,6 +4,12 @@ import Navbar from '../components/Navbar'
 import Footer from '../components/Footer'
 
 export default function Contact() {
+  const handleSubmit = (e) => {
+    e.preventDefault()
+    // Prevent default form submission
+    alert('Form submitted! (This is just a demo - no actual email is sent)')
+  }
+
   return (
     <>
       <Navbar />
@@ -29,8 +35,7 @@ export default function Contact() {
                   </div>
                   <div>
                     <h3 className="font-bold text-gray-900">Email</h3>
-                    <p className="text-gray-600">your.email@example.com</p>
-                    <p className="text-sm text-blue-600">✏️ TODO: Add your actual email</p>
+                    <p className="text-gray-600">skina0087@launchpadphilly.org</p>
                   </div>
                 </div>
 
@@ -40,10 +45,9 @@ export default function Contact() {
                   </div>
                   <div>
                     <h3 className="font-bold text-gray-900">LinkedIn</h3>
-                    <a href="https://linkedin.com/in/yourname" className="text-blue-500 hover:underline" target="_blank" rel="noopener noreferrer">
-                      linkedin.com/in/yourname
+                    <a href="https://www.linkedin.com/in/sanya-kinard-00216b319/" className="text-blue-500 hover:underline" target="_blank" rel="noopener noreferrer">
+                      Click to View
                     </a>
-                    <p className="text-sm text-blue-600">✏️ TODO: Add your LinkedIn URL</p>
                   </div>
                 </div>
 
@@ -53,10 +57,9 @@ export default function Contact() {
                   </div>
                   <div>
                     <h3 className="font-bold text-gray-900">GitHub</h3>
-                    <a href="https://github.com/yourname" className="text-blue-500 hover:underline" target="_blank" rel="noopener noreferrer">
-                      github.com/yourname
+                    <a href="https://github.com/slumpshouse" className="text-blue-500 hover:underline" target="_blank" rel="noopener noreferrer">
+                      github.com/slumpshouse
                     </a>
-                    <p className="text-sm text-blue-600">✏️ TODO: Add your GitHub URL</p>
                   </div>
                 </div>
               </div>
@@ -66,7 +69,7 @@ export default function Contact() {
             <div>
               <h2 className="text-2xl font-bold mb-6">Send a Message</h2>
               <div className="bg-white rounded-lg shadow-lg p-6">
-                <form className="space-y-4">
+                <form className="space-y-4" onSubmit={handleSubmit}>
                   <div>
                     <label htmlFor="name" className="block text-sm font-medium text-gray-700 mb-1">
                       Your Name
