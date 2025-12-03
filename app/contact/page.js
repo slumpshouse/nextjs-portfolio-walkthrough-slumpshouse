@@ -46,7 +46,7 @@ export default function Contact() {
                   <div>
                     <h3 className="font-bold text-gray-900">LinkedIn</h3>
                     <a href="https://www.linkedin.com/in/sanya-kinard-00216b319/" className="text-blue-500 hover:underline" target="_blank" rel="noopener noreferrer">
-                      Click to View
+                      Click to Connect
                     </a>
                   </div>
                 </div>

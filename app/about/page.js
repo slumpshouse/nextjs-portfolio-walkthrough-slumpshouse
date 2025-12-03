@@ -13,17 +13,18 @@ export default function About() {
           <section className="bg-white rounded-lg shadow-lg p-8 mb-8">
             <div className="flex flex-col md:flex-row gap-8 items-center">
               <div className="w-64 h-64 bg-gradient-to-br from-blue-400 to-purple-500 rounded-full flex items-center justify-center">
-                <span className="text-white font-bold text-xl">Your Photo</span>
+                <svg className="w-32 h-32 text-white" fill="currentColor" viewBox="0 0 24 24">
+                  <path d="M7.5 1.5C6.5 1.5 5.5 2.5 5.5 3.5v17c0 1 1 2 2 2h9c1 0 2-1 2-2v-17c0-1-1-2-2-2h-9zm0 2h9v14h-9v-14zm2 1.5c-.5 0-1 .5-1 1s.5 1 1 1 1-.5 1-1-.5-1-1-1zm5 0c-.5 0-1 .5-1 1s.5 1 1 1 1-.5 1-1-.5-1-1-1zm-6 3v2h8v-2h-8zm0 3v2h8v-2h-8zm1 4c-.5 0-1 .5-1 1s.5 1 1 1 1-.5 1-1-.5-1-1-1zm2 0c-.5 0-1 .5-1 1s.5 1 1 1 1-.5 1-1-.5-1-1-1zm2 0c-.5 0-1 .5-1 1s.5 1 1 1 1-.5 1-1-.5-1-1-1zm2 0c-.5 0-1 .5-1 1s.5 1 1 1 1-.5 1-1-.5-1-1-1z"/>
+                </svg>
               </div>
               <div className="flex-1">
-                <h2 className="text-3xl font-bold mb-4 text-gray-900">Hello, I'm Sa'NYa</h2>
+                <h2 className="text-3xl font-bold mb-4 text-gray-900">Hello, I'm Sa'Nya</h2>
                 <p className="text-lg text-gray-700 mb-4">
                   I'm a passionate web developer with a love for creating beautiful, functional, and user-friendly websites. 
                   I enjoy solving complex problems and turning ideas into reality through code.
                 </p>
                 <p className="text-lg text-gray-700">
-                  When I'm not coding, you can find me exploring new technologies, contributing to open source projects, 
-                  or enjoying the outdoors with my camera.
+                  When I'm not coding
                 </p>
               </div>
             </div>
@@ -82,10 +83,10 @@ export default function About() {
                   <p className="text-gray-700 mt-2">Relevant coursework or achievements</p>
                 </div>
                 <div className="border-l-4 border-green-500 pl-4">
-                  <h3 className="text-xl font-semibold text-gray-900">Projects & Learning</h3>
-                  <p className="text-gray-600">Self-taught Web Development</p>
-                  <p className="text-sm text-gray-500">Ongoing</p>
-                  <p className="text-gray-700 mt-2">Building projects and learning new technologies</p>
+                  <h3 className="text-xl font-semibold text-gray-900">Experience</h3>
+                  <p className="text-gray-600">RadiantHue</p>
+                  <p className="text-sm text-gray-500">July 2025 - August 2025</p>
+                  <p className="text-gray-700 mt-2">Used marketing research skills and built framework for management software </p>
                 </div>
               </div>
             </div>
