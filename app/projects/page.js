@@ -13,19 +13,10 @@ export default function Projects() {
       category: "Web App"
     },
     {
-      title: "Portfolio Website",
-      description: "A responsive portfolio website built with Next.js and Tailwind CSS, showcasing projects and skills with a modern design.",
-      image: "bg-gradient-to-r from-green-400 to-blue-500",
-      technologies: ["Next.js", "Tailwind CSS", "React"],
-      github: "#",
-      demo: "#",
-      category: "Website"
-    },
-    {
-      title: "Task Management App",
-      description: "A collaborative task management application with real-time updates, drag-and-drop functionality, and team collaboration features.",
+      title: "🌍GlobaLingo",
+      description: "A language learning app that teaches you other languages connects you to other people learning those same languages.",
       image: "bg-gradient-to-r from-purple-400 to-pink-500",
-      technologies: ["React", "Firebase", "Material-UI"],
+      technologies: ["React", , "Material-UI"],
       github: "#",
       demo: "#",
       category: "Web App"
@@ -39,24 +30,7 @@ export default function Projects() {
       demo: "#",
       category: "Dashboard"
     },
-    {
-      title: "Mobile-First Blog",
-      description: "A responsive blog platform optimized for mobile devices with content management and SEO optimization features.",
-      image: "bg-gradient-to-r from-indigo-400 to-purple-500",
-      technologies: ["React", "Gatsby", "GraphQL", "CMS"],
-      github: "#",
-      demo: "#",
-      category: "Website"
-    },
-    {
-      title: "Data Visualization Tool",
-      description: "An interactive data visualization tool that transforms complex datasets into beautiful, interactive charts and graphs.",
-      image: "bg-gradient-to-r from-teal-400 to-blue-500",
-      technologies: ["D3.js", "React", "Python", "Flask"],
-      github: "#",
-      demo: "#",
-      category: "Dashboard"
-    }
+    
   ]
 
   return (
